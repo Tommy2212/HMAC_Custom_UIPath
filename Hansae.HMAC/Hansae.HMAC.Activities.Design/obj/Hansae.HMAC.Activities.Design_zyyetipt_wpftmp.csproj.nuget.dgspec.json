@@ -1,0 +1,152 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\johnkim\\projects\\uipath_hmac_authorization\\Hansae.HMAC\\Hansae.HMAC.Activities.Design\\Hansae.HMAC.Activities.Design.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\johnkim\\projects\\uipath_hmac_authorization\\Hansae.HMAC\\Hansae.HMAC.Activities.Design\\Hansae.HMAC.Activities.Design.csproj": {
+      "version": "0.1.0.518005958",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\johnkim\\projects\\uipath_hmac_authorization\\Hansae.HMAC\\Hansae.HMAC.Activities.Design\\Hansae.HMAC.Activities.Design.csproj",
+        "projectName": "Hansae.HMAC.Activities",
+        "projectPath": "c:\\Users\\johnkim\\projects\\uipath_hmac_authorization\\Hansae.HMAC\\Hansae.HMAC.Activities.Design\\Hansae.HMAC.Activities.Design.csproj",
+        "packagesPath": "C:\\Users\\johnkim\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\johnkim\\projects\\uipath_hmac_authorization\\Hansae.HMAC\\Hansae.HMAC.Activities.Design\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\johnkim\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "c:\\Users\\johnkim\\projects\\uipath_hmac_authorization\\Hansae.HMAC\\Hansae.HMAC.Activities\\Hansae.HMAC.Activities.csproj": {
+                "projectPath": "c:\\Users\\johnkim\\projects\\uipath_hmac_authorization\\Hansae.HMAC\\Hansae.HMAC.Activities\\Hansae.HMAC.Activities.csproj",
+                "privateAssets": "all"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.14, 6.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.14, 6.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.14, 6.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.2.23157.25\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\johnkim\\projects\\uipath_hmac_authorization\\Hansae.HMAC\\Hansae.HMAC.Activities\\Hansae.HMAC.Activities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\johnkim\\projects\\uipath_hmac_authorization\\Hansae.HMAC\\Hansae.HMAC.Activities\\Hansae.HMAC.Activities.csproj",
+        "projectName": "Hansae.HMAC.Activities.Implementation",
+        "projectPath": "c:\\Users\\johnkim\\projects\\uipath_hmac_authorization\\Hansae.HMAC\\Hansae.HMAC.Activities\\Hansae.HMAC.Activities.csproj",
+        "packagesPath": "C:\\Users\\johnkim\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\johnkim\\projects\\uipath_hmac_authorization\\Hansae.HMAC\\Hansae.HMAC.Activities\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\johnkim\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.14, 6.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.14, 6.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.14, 6.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.2.23157.25\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

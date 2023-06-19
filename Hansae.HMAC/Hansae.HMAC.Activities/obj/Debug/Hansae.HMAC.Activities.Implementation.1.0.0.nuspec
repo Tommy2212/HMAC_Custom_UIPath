@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Hansae.HMAC.Activities.Implementation</id>
+    <version>1.0.0</version>
+    <authors>Hansae.HMAC.Activities</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="d:\Material\Hansae_Project\hansae_HMAC_Custom_UIPath\Hansae.HMAC\Hansae.HMAC.Activities\bin\Debug\net6.0-windows\Hansae.HMAC.Activities.dll" target="lib\net6.0-windows7.0\Hansae.HMAC.Activities.dll" />
+    <file src="d:\Material\Hansae_Project\hansae_HMAC_Custom_UIPath\Hansae.HMAC\Hansae.HMAC.Activities\bin\Debug\net6.0-windows\Hansae.HMAC.Activities.xml" target="lib\net6.0-windows7.0\Hansae.HMAC.Activities.xml" />
+  </files>
+</package>

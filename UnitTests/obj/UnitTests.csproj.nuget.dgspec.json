@@ -1,0 +1,139 @@
+{
+  "format": 1,
+  "restore": {
+    "d:\\Material\\Hansae_Project\\hansae_HMAC_Custom_UIPath\\UnitTests\\UnitTests.csproj": {}
+  },
+  "projects": {
+    "d:\\Material\\Hansae_Project\\hansae_HMAC_Custom_UIPath\\Hansae.HMAC\\Hansae.HMAC.Activities\\Hansae.HMAC.Activities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Material\\Hansae_Project\\hansae_HMAC_Custom_UIPath\\Hansae.HMAC\\Hansae.HMAC.Activities\\Hansae.HMAC.Activities.csproj",
+        "projectName": "Hansae.HMAC.Activities.Implementation",
+        "projectPath": "d:\\Material\\Hansae_Project\\hansae_HMAC_Custom_UIPath\\Hansae.HMAC\\Hansae.HMAC.Activities\\Hansae.HMAC.Activities.csproj",
+        "packagesPath": "C:\\Users\\Tien\\.nuget\\packages\\",
+        "outputPath": "d:\\Material\\Hansae_Project\\hansae_HMAC_Custom_UIPath\\Hansae.HMAC\\Hansae.HMAC.Activities\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\Tien\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\ProgramData\\UiPath\\Libraries": {},
+          "d:\\Material\\Hansae_Project\\hansae_HMAC_Custom_UIPath\\Hansae.HMAC\\Hansae.HMAC.Activities.Design\\bin\\Debug": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\Material\\Hansae_Project\\hansae_HMAC_Custom_UIPath\\UnitTests\\UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Material\\Hansae_Project\\hansae_HMAC_Custom_UIPath\\UnitTests\\UnitTests.csproj",
+        "projectName": "UnitTests",
+        "projectPath": "d:\\Material\\Hansae_Project\\hansae_HMAC_Custom_UIPath\\UnitTests\\UnitTests.csproj",
+        "packagesPath": "C:\\Users\\Tien\\.nuget\\packages\\",
+        "outputPath": "d:\\Material\\Hansae_Project\\hansae_HMAC_Custom_UIPath\\UnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tien\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\ProgramData\\UiPath\\Libraries": {},
+          "d:\\Material\\Hansae_Project\\hansae_HMAC_Custom_UIPath\\Hansae.HMAC\\Hansae.HMAC.Activities.Design\\bin\\Debug": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "d:\\Material\\Hansae_Project\\hansae_HMAC_Custom_UIPath\\Hansae.HMAC\\Hansae.HMAC.Activities\\Hansae.HMAC.Activities.csproj": {
+                "projectPath": "d:\\Material\\Hansae_Project\\hansae_HMAC_Custom_UIPath\\Hansae.HMAC\\Hansae.HMAC.Activities\\Hansae.HMAC.Activities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "UiPath.Workflow": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

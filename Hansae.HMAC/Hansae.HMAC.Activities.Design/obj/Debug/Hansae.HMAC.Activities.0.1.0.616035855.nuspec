@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Hansae.HMAC.Activities</id>
+    <version>0.1.0.616035855</version>
+    <authors>Michael Halpin</authors>
+    <license type="expression">Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/Apache-2.0</licenseUrl>
+    <icon>packageIcon.png</icon>
+    <projectUrl>https://docs.uipath.com/integrations/docs/how-to-create-activities</projectUrl>
+    <description>This package is a demonstration for how to create UIPath activites on .NET 6</description>
+    <tags>UiPath Activit??</tags>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="d:\Material\Hansae_Project\hansae_HMAC_Custom_UIPath\Hansae.HMAC\Hansae.HMAC.Activities\bin\Debug\net6.0-windows\Hansae.HMAC.Activities.dll" target="lib\net6.0-windows7.0\Hansae.HMAC.Activities.dll" />
+    <file src="d:\Material\Hansae_Project\hansae_HMAC_Custom_UIPath\Hansae.HMAC\Hansae.HMAC.Activities\bin\Debug\net6.0-windows\Hansae.HMAC.Activities.xml" target="lib\net6.0-windows7.0\Hansae.HMAC.Activities.xml" />
+    <file src="d:\Material\Hansae_Project\hansae_HMAC_Custom_UIPath\Hansae.HMAC\Hansae.HMAC.Activities.Design\bin\Debug\net6.0-windows\Hansae.HMAC.Activities.Design.dll" target="lib\net6.0-windows7.0\Hansae.HMAC.Activities.Design.dll" />
+    <file src="d:\Material\Hansae_Project\hansae_HMAC_Custom_UIPath\Hansae.HMAC\Hansae.HMAC.Activities.Design\bin\Debug\net6.0-windows\Hansae.HMAC.Activities.Design.xml" target="lib\net6.0-windows7.0\Hansae.HMAC.Activities.Design.xml" />
+    <file src="d:\Material\Hansae_Project\hansae_HMAC_Custom_UIPath\Hansae.HMAC\Hansae.HMAC.Activities.Design\packageIcon.png" target="packageIcon.png" />
+  </files>
+</package>

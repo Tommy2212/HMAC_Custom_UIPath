@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "W4HtnCBAj05vI8YklU6iAHaJfMZ+YLJTf78ExpBxamp9IHP755UESTfMjUOnJCu71biCqAVz0RPFtn+uXOatYg==",
+  "success": true,
+  "projectFilePath": "d:\\Material\\Hansae_Project\\hansae_HMAC_Custom_UIPath\\Hansae.HMAC\\Hansae.HMAC.Activities\\Hansae.HMAC.Activities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tien\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

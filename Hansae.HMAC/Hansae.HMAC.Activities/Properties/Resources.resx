@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ContinueOnError_Description" xml:space="preserve">
+    <value>If set, continue executing the remaining activities even if the current activity has failed.</value>
+  </data>
+  <data name="ContinueOnError_DisplayName" xml:space="preserve">
+    <value>ContinueOnError</value>
+  </data>
+  <data name="Do" xml:space="preserve">
+    <value>Do</value>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Common</value>
+  </data>
+  <data name="ValidationScope_Error" xml:space="preserve">
+    <value>Cannot be used outside of a {0}.</value>
+  </data>
+  <data name="ValidationValue_Error" xml:space="preserve">
+    <value>Please provide a value for {0}.</value>
+  </data>
+  <data name="TestActivity_DisplayName" xml:space="preserve">
+    <value>Test Activity</value>
+  </data>
+  <data name="TestActivity_Description" xml:space="preserve">
+    <value>A simple test activity.</value>
+  </data>
+  <data name="TestActivity_FilePath_DisplayName" xml:space="preserve">
+    <value>File Path</value>
+  </data>
+  <data name="TestActivity_FilePath_Description" xml:space="preserve">
+    <value>Select any file.</value>
+  </data>
+  <data name="TestActivity_Message_DisplayName" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="TestActivity_Message_Description" xml:space="preserve">
+    <value>A personalized message the system returns.</value>
+  </data>
+  <data name="TestActivity_RelativePronoun_DisplayName" xml:space="preserve">
+    <value>Relative Pronoun</value>
+  </data>
+  <data name="TestActivity_RelativePronoun_Description" xml:space="preserve">
+    <value>Select any pronoun.</value>
+  </data>
+  <data name="TestActivity_DataType_DisplayName" xml:space="preserve">
+    <value>Data Type</value>
+  </data>
+  <data name="TestActivity_DataType_Description" xml:space="preserve">
+    <value>Select any data type.</value>
+  </data>
+  <data name="Input_Category" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="Debug_Category" xml:space="preserve">
+    <value>Debug</value>
+  </data>
+  <data name="TestScope_DisplayName" xml:space="preserve">
+    <value>Test Scope</value>
+  </data>
+  <data name="TestScope_Description" xml:space="preserve">
+    <value>A simple scope.</value>
+  </data>
+  <data name="TestScope_TestString_DisplayName" xml:space="preserve">
+    <value>Test String</value>
+  </data>
+  <data name="TestScope_TestString_Description" xml:space="preserve">
+    <value>A simple string.</value>
+  </data>
+  <data name="ScopeActivity_ScopeId_DisplayName" xml:space="preserve">
+    <value>Scope Id</value>
+  </data>
+  <data name="ScopeActivity_ScopeId_Description" xml:space="preserve">
+    <value>Represent an object passed in by the outer scope.</value>
+  </data>
+  <data name="Output_Category" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="ScopeActivity_DisplayName" xml:space="preserve">
+    <value>A scoped activity.</value>
+  </data>
+  <data name="ScopeActivity_Description" xml:space="preserve">
+    <value>Scope Activity</value>
+  </data>
+  <data name="TestScope_OtherString_DisplayName" xml:space="preserve">
+    <value>Other String</value>
+  </data>
+  <data name="TestScope_OtherString_Description" xml:space="preserve">
+    <value>Another string.</value>
+  </data>
+  <data name="TestActivity_YourName_DisplayName" xml:space="preserve">
+    <value>Your Name</value>
+  </data>
+  <data name="TestActivity_YourName_Description" xml:space="preserve">
+    <value>Select or enter your name.</value>
+  </data>
+  <data name="InputOutput_Category" xml:space="preserve">
+    <value>InputOutput</value>
+  </data>
+  <data name="TestActivity_FlagFlip_DisplayName" xml:space="preserve">
+    <value>Flag Flip</value>
+  </data>
+  <data name="TestActivity_FlagFlip_Description" xml:space="preserve">
+    <value>A flag to flip the other direction.</value>
+  </data>
+  <data name="TestActivity_FolderPath_DisplayName" xml:space="preserve">
+    <value>Folder Path</value>
+  </data>
+  <data name="TestActivity_FolderPath_Description" xml:space="preserve">
+    <value>Path to a folder.</value>
+  </data>
+  <data name="TestActivity_TextInput_DisplayName" xml:space="preserve">
+    <value>Text Input</value>
+  </data>
+  <data name="TestActivity_TextInput_Description" xml:space="preserve">
+    <value>Regular text input.</value>
+  </data>
+  <data name="TestActivity_LogFile_DisplayName" xml:space="preserve">
+    <value>Log File</value>
+  </data>
+  <data name="TestActivity_LogFile_Description" xml:space="preserve">
+    <value>If a file path is specified debug logs will be written to the specified file.</value>
+  </data>
+  <data name="DebugLog_DisplayName" xml:space="preserve">
+    <value>Debug Log</value>
+  </data>
+  <data name="DebugLog_Description" xml:space="preserve">
+    <value>If specified a debug log will be produced in the specified file.</value>
+  </data>
+  <data name="UserID_DisplayName" xml:space="preserve">
+    <value>UserID</value>
+  </data>
+  <data name="UserID_Description" xml:space="preserve">
+    <value>Your UserID, Ex: DataAPIAgent@5717989018004282</value>
+  </data>
+    <data name="AccessKeyID_DisplayName" xml:space="preserve">
+    <value>AccessKeyID</value>
+  </data>
+  <data name="AccessKeyID_Description" xml:space="preserve">
+    <value>Your AccessKeyID Ex: 15903aae</value>
+  </data>
+    <data name="SecretAccessKey_DisplayName" xml:space="preserve">
+    <value>SecretAccessKey</value>
+  </data>
+  <data name="SecretAccessKey_Description" xml:space="preserve">
+    <value>Your SecretAccessKey, Ex: f8ae9e5c</value>
+  </data>
+    <data name="Result_DisplayName" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="Result_Description" xml:space="preserve">
+    <value>Result</value>
+  </data>
+      <data name="Status_DisplayName" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Status_Description" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="HmacRequest_DisplayName" xml:space="preserve">
+    <value>Send Hmac Request</value>
+  </data>
+  <data name="HmacRequest_Description" xml:space="preserve">
+    <value>Hmac Send Request</value>
+  </data>
+    <data name="Url_DisplayName" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="Url_Description" xml:space="preserve">
+    <value>Your endpoint</value>
+  </data>
+    <data name="Method_DisplayName" xml:space="preserve">
+    <value>Method</value>
+  </data>
+  <data name="Method_Description" xml:space="preserve">
+    <value>GET or POST ...</value>
+  </data>
+  <data name="FingerPrint_DisplayName" xml:space="preserve">
+      <value>FingerPrint</value>
+  </data>
+    <data name="FingerPrint_Description" xml:space="preserve">
+    <value>Your FingerPrint, Ex: "26d00db418b5a2aedcd6ff382ebb4633"</value>
+  </data>
+    <data name="DataKey_DisplayName" xml:space="preserve">
+      <value>DataKey</value>
+  </data>
+  <data name="DataKey_Description" xml:space="preserve">
+    <value>Your DataKey, Ex: 42f014507de3f8a1f976832af5798983bfc726d0</value>
+  </data>
+    <data name="Data_DisplayName" xml:space="preserve">
+      <value>Data</value>
+  </data>
+  <data name="Data_Description" xml:space="preserve">
+    <value>If POST method, put data for it.</value>
+  </data>
+</root>

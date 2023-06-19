@@ -1,0 +1,156 @@
+<sap:ActivityDesigner x:Class="Hansae.HMAC.Activities.Design.Designers.HmacRequestDesigner"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:activity="clr-namespace:Hansae.HMAC.Activities.Properties;assembly=Hansae.HMAC.Activities"
+                      xmlns:sap="clr-namespace:System.Activities.Presentation;assembly=System.Activities.Presentation"
+                      xmlns:sapv="clr-namespace:System.Activities.Presentation.View;assembly=System.Activities.Presentation"
+                      xmlns:sapc="clr-namespace:System.Activities.Presentation.Converters;assembly=System.Activities.Presentation"
+                      xmlns:converters="clr-namespace:UiPath.Shared.Activities.Design.Converters"
+                      xmlns:uip="clr-namespace:UiPath.Shared.Activities.Design.Controls"
+                      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
+                      d:DataContext="{d:DesignInstance }">
+
+    <sap:ActivityDesigner.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="..\Themes\Generic.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <sapc:ArgumentToExpressionConverter x:Key="ArgumentToExpressionConverter" />
+            <converters:ActivityIconConverter x:Key="ActivityIconConverter" />
+            <sapc:ModelToObjectValueConverter x:Key="ModelItemConverter" />  
+        </ResourceDictionary>
+    </sap:ActivityDesigner.Resources>
+
+    <sap:ActivityDesigner.Icon>
+        <DrawingBrush Stretch="Uniform" Drawing="{Binding Path=ModelItem, Converter={StaticResource ActivityIconConverter}, ConverterParameter=pack://application:\,\,\,/Hansae.HMAC.Activities.Design;component/themes/icons.xaml}" />
+    </sap:ActivityDesigner.Icon>
+
+    <uip:ActivityDecoratorControl Style="{StaticResource ActivityDecoratorStyle}">
+        <StackPanel>
+            <Label Margin="0,0,0, 0"
+                   Padding="0,0,0,0"
+                   Content="{x:Static activity:Resources.UserID_DisplayName}"
+                   ToolTip="{x:Static activity:Resources.UserID_Description}"/>
+            <sapv:ExpressionTextBox ExpressionType="{ Binding ModelItem.Properties[UserID].PropertyType.GenericTypeArguments[0] }" 
+                                    OwnerActivity="{ Binding Path=ModelItem }" 
+                                    HintText="{ x:Static activity:Resources.UserID_Description }" 
+                                    UseLocationExpression="False">
+                <sapv:ExpressionTextBox.Expression>
+                    <Binding Path="ModelItem.UserID" Converter="{ StaticResource ArgumentToExpressionConverter }" Mode="TwoWay" ConverterParameter="In" UpdateSourceTrigger="PropertyChanged" />
+                </sapv:ExpressionTextBox.Expression>
+            </sapv:ExpressionTextBox>
+            <Label Margin="0,0,0, 0"
+                   Padding="0,0,0,0"
+                   Content="{x:Static activity:Resources.AccessKeyID_DisplayName}"
+                   ToolTip="{x:Static activity:Resources.AccessKeyID_Description}"/>
+            <sapv:ExpressionTextBox ExpressionType="{ Binding ModelItem.Properties[AccessKeyID].PropertyType.GenericTypeArguments[0] }" 
+                                    OwnerActivity="{ Binding Path=ModelItem }" 
+                                    HintText="{ x:Static activity:Resources.AccessKeyID_Description }" 
+                                    UseLocationExpression="False">
+                <sapv:ExpressionTextBox.Expression>
+                    <Binding Path="ModelItem.AccessKeyID" Converter="{ StaticResource ArgumentToExpressionConverter }" Mode="TwoWay" ConverterParameter="In" UpdateSourceTrigger="PropertyChanged" />
+                </sapv:ExpressionTextBox.Expression>
+            </sapv:ExpressionTextBox>
+            <Label Margin="0,0,0, 0"
+                   Padding="0,0,0,0"
+                   Content="{x:Static activity:Resources.SecretAccessKey_DisplayName}"
+                   ToolTip="{x:Static activity:Resources.SecretAccessKey_Description}"/>
+            <sapv:ExpressionTextBox ExpressionType="{ Binding ModelItem.Properties[SecretAccessKey].PropertyType.GenericTypeArguments[0] }" 
+                                    OwnerActivity="{ Binding Path=ModelItem }" 
+                                    HintText="{ x:Static activity:Resources.SecretAccessKey_Description }" 
+                                    UseLocationExpression="False">
+                <sapv:ExpressionTextBox.Expression>
+                    <Binding Path="ModelItem.SecretAccessKey" Converter="{ StaticResource ArgumentToExpressionConverter }" Mode="TwoWay" ConverterParameter="In" UpdateSourceTrigger="PropertyChanged" />
+                </sapv:ExpressionTextBox.Expression>
+            </sapv:ExpressionTextBox>
+            <Label Margin="0,0,0, 0"
+                   Padding="0,0,0,0"
+                   Content="{x:Static activity:Resources.Url_DisplayName}"
+                   ToolTip="{x:Static activity:Resources.Url_Description}"/>
+            <sapv:ExpressionTextBox ExpressionType="{ Binding ModelItem.Properties[Url].PropertyType.GenericTypeArguments[0] }" 
+                                    OwnerActivity="{ Binding Path=ModelItem }" 
+                                    HintText="{ x:Static activity:Resources.Url_Description }" 
+                                    UseLocationExpression="False">
+                <sapv:ExpressionTextBox.Expression>
+                    <Binding Path="ModelItem.Url" Converter="{ StaticResource ArgumentToExpressionConverter }" Mode="TwoWay" ConverterParameter="In" UpdateSourceTrigger="PropertyChanged" />
+                </sapv:ExpressionTextBox.Expression>
+            </sapv:ExpressionTextBox>
+            <Label Margin="0,0,0, 0"
+                   Padding="0,0,0,0"
+                   Content="{x:Static activity:Resources.Method_DisplayName}"
+                   ToolTip="{x:Static activity:Resources.Method_Description}"/>
+            <sapv:ExpressionTextBox ExpressionType="{ Binding ModelItem.Properties[Method].PropertyType.GenericTypeArguments[0] }" 
+                                    OwnerActivity="{ Binding Path=ModelItem }" 
+                                    HintText="{ x:Static activity:Resources.Method_Description }" 
+                                    UseLocationExpression="False">
+                <sapv:ExpressionTextBox.Expression>
+                    <Binding Path="ModelItem.Method" Converter="{ StaticResource ArgumentToExpressionConverter }" Mode="TwoWay" ConverterParameter="In" UpdateSourceTrigger="PropertyChanged" />
+                </sapv:ExpressionTextBox.Expression>
+            </sapv:ExpressionTextBox>
+            <Label Margin="0,0,0, 0"
+                   Padding="0,0,0,0"
+                   Content="{x:Static activity:Resources.DataKey_DisplayName}"
+                   ToolTip="{x:Static activity:Resources.DataKey_Description}"/>
+            <sapv:ExpressionTextBox ExpressionType="{ Binding ModelItem.Properties[DataKey].PropertyType.GenericTypeArguments[0] }" 
+                                    OwnerActivity="{ Binding Path=ModelItem }" 
+                                    HintText="{ x:Static activity:Resources.DataKey_Description }" 
+                                    UseLocationExpression="False">
+                <sapv:ExpressionTextBox.Expression>
+                    <Binding Path="ModelItem.DataKey" Converter="{ StaticResource ArgumentToExpressionConverter }" Mode="TwoWay" ConverterParameter="In" UpdateSourceTrigger="PropertyChanged" />
+                </sapv:ExpressionTextBox.Expression>
+            </sapv:ExpressionTextBox>
+
+            <Label Margin="0,0,0, 0"
+                   Padding="0,0,0,0"
+                   Content="{x:Static activity:Resources.FingerPrint_DisplayName}"
+                   ToolTip="{x:Static activity:Resources.FingerPrint_Description}"/>
+            <sapv:ExpressionTextBox ExpressionType="{ Binding ModelItem.Properties[FingerPrint].PropertyType.GenericTypeArguments[0] }" 
+                                    OwnerActivity="{ Binding Path=ModelItem }" 
+                                    HintText="{ x:Static activity:Resources.FingerPrint_Description }" 
+                                    UseLocationExpression="False">
+                <sapv:ExpressionTextBox.Expression>
+                    <Binding Path="ModelItem.FingerPrint" Converter="{ StaticResource ArgumentToExpressionConverter }" Mode="TwoWay" ConverterParameter="In" UpdateSourceTrigger="PropertyChanged" />
+                </sapv:ExpressionTextBox.Expression>
+            </sapv:ExpressionTextBox>
+
+            <Label Margin="0,0,0, 0"
+                   Padding="0,0,0,0"
+                   Content="{x:Static activity:Resources.Data_DisplayName}"
+                   ToolTip="{x:Static activity:Resources.Data_Description}"/>
+            <sapv:ExpressionTextBox ExpressionType="{ Binding ModelItem.Properties[Data].PropertyType.GenericTypeArguments[0] }" 
+                                    OwnerActivity="{ Binding Path=ModelItem }" 
+                                    HintText="{ x:Static activity:Resources.Data_Description }" 
+                                    UseLocationExpression="False">
+                <sapv:ExpressionTextBox.Expression>
+                    <Binding Path="ModelItem.Data" Converter="{ StaticResource ArgumentToExpressionConverter }" Mode="TwoWay" ConverterParameter="In" UpdateSourceTrigger="PropertyChanged" />
+                </sapv:ExpressionTextBox.Expression>
+            </sapv:ExpressionTextBox>
+           <Label Margin="0,0,0, 0"
+                   Padding="0,0,0,0"
+                   Content="{x:Static activity:Resources.Result_DisplayName}"
+                   ToolTip="{x:Static activity:Resources.Result_Description}"/>
+            <sapv:ExpressionTextBox ExpressionType="{ Binding ModelItem.Properties[Message].PropertyType.GenericTypeArguments[0] }" 
+                                    OwnerActivity="{ Binding Path=ModelItem }" 
+                                    HintText="{ x:Static activity:Resources.Result_Description }" 
+                                    UseLocationExpression="True"> <!-- NOTE: OutArguments will not work with out this being set to true! -->
+                <sapv:ExpressionTextBox.Expression>
+                    <Binding Path="ModelItem.Result" Converter="{ StaticResource ArgumentToExpressionConverter }" Mode="TwoWay" ConverterParameter="Out" UpdateSourceTrigger="PropertyChanged" /> <!-- ConverterParameter needs to be set to 'Out' for OutArguments. -->
+                </sapv:ExpressionTextBox.Expression>
+            </sapv:ExpressionTextBox>
+            <Label Margin="0,0,0, 0"
+                   Padding="0,0,0,0"
+                   Content="{x:Static activity:Resources.Status_DisplayName}"
+                   ToolTip="{x:Static activity:Resources.Status_Description}"/>
+            <sapv:ExpressionTextBox ExpressionType="{ Binding ModelItem.Properties[Message].PropertyType.GenericTypeArguments[0] }" 
+                                    OwnerActivity="{ Binding Path=ModelItem }" 
+                                    HintText="{ x:Static activity:Resources.Status_Description }" 
+                                    UseLocationExpression="True"> <!-- NOTE: OutArguments will not work with out this being set to true! -->
+                <sapv:ExpressionTextBox.Expression>
+                    <Binding Path="ModelItem.Status" Converter="{ StaticResource ArgumentToExpressionConverter }" Mode="TwoWay" ConverterParameter="Out" UpdateSourceTrigger="PropertyChanged" /> <!-- ConverterParameter needs to be set to 'Out' for OutArguments. -->
+                </sapv:ExpressionTextBox.Expression>
+            </sapv:ExpressionTextBox>
+            
+        </StackPanel>
+    </uip:ActivityDecoratorControl>
+</sap:ActivityDesigner>

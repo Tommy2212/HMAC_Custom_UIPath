@@ -1,0 +1,46 @@
+using System.Activities.Presentation.Metadata;
+using System.ComponentModel;
+using System.ComponentModel.Design;
+using Hansae.HMAC.Activities.Design.Designers;
+using Hansae.HMAC.Activities.Design.Properties;
+
+namespace Hansae.HMAC.Activities.Design;
+
+/// <summary>
+/// Adds the activities contained in this package to the list of activities in UiPath.
+/// </summary>
+public class DesignerMetadata : IRegisterMetadata
+{
+    /// <summary>
+    /// Registers this package of activities in UiPath.
+    /// </summary>
+    public void Register()
+    {
+        var builder = new AttributeTableBuilder();
+        builder.ValidateTable();
+
+        var categoryAttribute = new CategoryAttribute($"{Resources.Category}");
+
+        #region NOTE: You need to add 3 lines using the following convention for every activity that you add to the project.
+        
+        builder.AddCustomAttributes(typeof(TestActivity), categoryAttribute);
+        builder.AddCustomAttributes(typeof(TestActivity), new DesignerAttribute(typeof(TestActivityDesigner)));
+        builder.AddCustomAttributes(typeof(TestActivity), new HelpKeywordAttribute(""));
+
+        builder.AddCustomAttributes(typeof(ScopeActivity), categoryAttribute);
+        builder.AddCustomAttributes(typeof(ScopeActivity), new DesignerAttribute(typeof(ScopeActivityDesigner)));
+        builder.AddCustomAttributes(typeof(ScopeActivity), new HelpKeywordAttribute(""));
+
+        builder.AddCustomAttributes(typeof(TestScope), categoryAttribute);
+        builder.AddCustomAttributes(typeof(TestScope), new DesignerAttribute(typeof(TestScopeDesigner)));
+        builder.AddCustomAttributes(typeof(TestScope), new HelpKeywordAttribute(""));
+
+        builder.AddCustomAttributes(typeof(HmacRequest), categoryAttribute);
+        builder.AddCustomAttributes(typeof(HmacRequest), new DesignerAttribute(typeof(HmacRequestDesigner)));
+        builder.AddCustomAttributes(typeof(HmacRequest), new HelpKeywordAttribute(""));
+
+        #endregion
+
+        MetadataStore.AddAttributeTable(builder.CreateTable());
+    }
+}

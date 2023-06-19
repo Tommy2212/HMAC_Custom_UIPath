@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hansae.HMAC.Activities.Design</name>
+    </assembly>
+    <members>
+        <member name="T:Hansae.HMAC.Activities.Design.DesignerMetadata">
+            <summary>
+            Adds the activities contained in this package to the list of activities in UiPath.
+            </summary>
+        </member>
+        <member name="M:Hansae.HMAC.Activities.Design.DesignerMetadata.Register">
+            <summary>
+            Registers this package of activities in UiPath.
+            </summary>
+        </member>
+        <member name="T:Hansae.HMAC.Activities.Design.Designers.ScopeActivityDesigner">
+            <summary>
+            Interaction logic for ScopeActivityDesigner.xaml
+            </summary>
+            <summary>
+            ScopeActivityDesigner
+            </summary>
+        </member>
+        <member name="M:Hansae.HMAC.Activities.Design.Designers.ScopeActivityDesigner.#ctor">
+            <summary>
+            Default constructor for ScopeActivityDesigner.
+            </summary>
+        </member>
+        <member name="M:Hansae.HMAC.Activities.Design.Designers.ScopeActivityDesigner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Hansae.HMAC.Activities.Design.Designers.TestActivityDesigner">
+            <summary>
+            Interaction logic for TestActivityDesigner.xaml
+            </summary>
+            <summary>
+            TestActivityDesigner
+            </summary>
+        </member>
+        <member name="M:Hansae.HMAC.Activities.Design.Designers.TestActivityDesigner.#ctor">
+            <summary>
+            Default constructor for TestActivityDesigner.
+            </summary>
+        </member>
+        <member name="M:Hansae.HMAC.Activities.Design.Designers.TestActivityDesigner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Hansae.HMAC.Activities.Design.Designers.TestScopeDesigner">
+            <summary>
+            Interaction logic for TestScopeDesigner.xaml
+            </summary>
+            <summary>
+            TestScopeDesigner
+            </summary>
+        </member>
+        <member name="M:Hansae.HMAC.Activities.Design.Designers.TestScopeDesigner.#ctor">
+            <summary>
+            Default constructor for TestScopeDesigner.
+            </summary>
+        </member>
+        <member name="M:Hansae.HMAC.Activities.Design.Designers.TestScopeDesigner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Hansae.HMAC.Activities.Design.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Hansae.HMAC.Activities.Design.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Hansae.HMAC.Activities.Design.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Hansae.HMAC.Activities.Design.Properties.Resources.Category">
+            <summary>
+              Looks up a localized string similar to Hansae.HMAC.
+            </summary>
+        </member>
+        <member name="P:Hansae.HMAC.Activities.Design.Properties.Resources.Collection">
+            <summary>
+              Looks up a localized string similar to Collection.
+            </summary>
+        </member>
+        <member name="P:Hansae.HMAC.Activities.Design.Properties.Resources.Do">
+            <summary>
+              Looks up a localized string similar to Do.
+            </summary>
+        </member>
+        <member name="P:Hansae.HMAC.Activities.Design.Properties.Resources.DoubleClickToView">
+            <summary>
+              Looks up a localized string similar to Double-click to view.
+            </summary>
+        </member>
+        <member name="P:Hansae.HMAC.Activities.Design.Properties.Resources.DropActivityHere">
+            <summary>
+              Looks up a localized string similar to Drop Activity Here.
+            </summary>
+        </member>
+        <member name="P:Hansae.HMAC.Activities.Design.Properties.Resources.Editing">
+            <summary>
+              Looks up a localized string similar to Editing.
+            </summary>
+        </member>
+        <member name="T:UiPath.Shared.Activities.Design.Controls.ComboboxControl">
+            <summary>
+            Interaction logic for ComboboxControl.xaml
+            </summary>
+            <summary>
+            ComboboxControl
+            </summary>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Design.Controls.ComboboxControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:UiPath.Shared.Activities.Design.Controls.FilePathControl">
+            <summary>
+            Interaction logic for FilePathControl.xaml
+            </summary>
+            <summary>
+            FilePathControl
+            </summary>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Design.Controls.FilePathControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:UiPath.Shared.Activities.Design.Controls.RestrictiveBodyConnector">
+            <summary>
+            Interaction logic for RestrictiveBodyConnector.xaml
+            </summary>
+            <summary>
+            RestrictiveBodyConnector
+            </summary>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Design.Controls.RestrictiveBodyConnector.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:UiPath.Shared.Activities.Design.Editors.EditorTemplates">
+            <summary>
+            EditorTemplates
+            </summary>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Design.Editors.EditorTemplates.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>

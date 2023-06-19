@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Hansae.HMAC.Activities.Implementation</id>
+    <version>1.0.0</version>
+    <authors>Hansae.HMAC.Activities</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="c:\Users\johnkim\projects\uipath_hmac_authorization\Hansae.HMAC\Hansae.HMAC.Activities\bin\Release\net6.0-windows\Hansae.HMAC.Activities.dll" target="lib\net6.0-windows7.0\Hansae.HMAC.Activities.dll" />
+    <file src="c:\Users\johnkim\projects\uipath_hmac_authorization\Hansae.HMAC\Hansae.HMAC.Activities\bin\Release\net6.0-windows\Hansae.HMAC.Activities.xml" target="lib\net6.0-windows7.0\Hansae.HMAC.Activities.xml" />
+  </files>
+</package>
